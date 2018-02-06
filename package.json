@@ -1,0 +1,33 @@
+{
+  "name": "mfd_project",
+  "version": "0.0.1",
+  "description": "MFD project for exam",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cleanhtml": "^1.0.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjsguld/mfd_project.git"
+  },
+  "keywords": [
+    "vue.js",
+    "sass",
+    "structured",
+    "data"
+  ],
+  "author": "Kristian Jeppe Schou Guld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjsguld/mfd_project/issues"
+  },
+  "homepage": "https://github.com/kjsguld/mfd_project#readme"
+}
