@@ -6,38 +6,24 @@
     <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
-    <header>
-      <div class="logo">
+    <header class="header container">
+      <div class="header__logo">
         <img src="" alt="">
       </div>
-      <nav>
+      <nav class="nav header__nav">
         <ul>
-          <li><a href="">login</a></li>
-          <li><a href="">items</a></li>
-          <li><a href="">search</a></li>
-          <li><a href="">burger</a></li>
+          <li class="nav__item"><a href="">login</a></li>
+          <li class="nav__item"><a href="">items</a></li>
+          <li class="nav__item"><a href="">search</a></li>
+          <li class="nav__item"><a href="">burger</a></li>
         </ul>
       </nav>
     </header>
-    <div class="slider">
-      <img src="" alt="">
-      <a href="#">Learn more about great deals</a>
+    <div class="slider container--fluid">
+      <img class="slider__image" src="" alt="">
+      <a class="slider__link" href="#">Learn more about great deals</a>
     </div>
-    <section>
-      <article class="">
-        
-      </article>
-      <article class="">
-
-      </article>
-      <article class="">
-
-      </article>
-    </section>
-    <section>
-      <h2>top brands</h2>
-    </section>
-    <section>
+    <section class="container">
       <article class="">
 
       </article>
@@ -48,125 +34,175 @@
 
       </article>
     </section>
+    <section class="brands container--fluid">
+      <h2 class="brands__title">top brands</h2>
+      <ul>
+        <li><img src="" alt="" class="brands__item"></li>
+        <li><img src="" alt="" class="brands__item"></li>
+        <li><img src="" alt="" class="brands__item"></li>
+        <li><img src="" alt="" class="brands__item"></li>
+        <li><img src="" alt="" class="brands__item"></li>
+      </ul>
+    </section>
     <section>
-      <nav class="tabs">
+      <article class="">
+
+      </article>
+      <article class="">
+
+      </article>
+      <article class="">
+
+      </article>
+    </section>
+    <section class="products container">
+      <nav class="products__tabs">
         <ul>
           <li>New Arrivals</li>
           <li>Top sellers</li>
           <li>Featured</li>
         </ul>
       </nav>
-      <div class="">
-        <div>
+      <div class="products__content">
+        <div class="product">
           <div class="">
-            sale
+            <div class="product__flag product__flag--sale">
+              <span>sale</span>
+            </div>
+            <img class="product__img" src="" alt="">
+            <div class="product__overlay">
+              <a href="">Quick view</a>
+              <a href="">Save</a>
+            </div>
           </div>
-          <img src="" alt="">
-          <h4>Pull&bear -- article name</h4>
-          <div>
-            <a href="">Quick view</a>
-            <a href="">Save</a>
+          <div class="product__info">
+            <h4 class="product__title">Pull&bear -- article name</h4>
+            <span class="product__price">$47.10</span>
+            <button class="product__button" type="button" name="button">add to bag</button>
           </div>
         </div>
-        <div>
+        <div class="product">
           <div class="">
-            sale
+            <div class="product__flag product__flag--sale">
+              <span>sale</span>
+            </div>
+            <img class="product__img" src="" alt="">
+            <div class="product__overlay">
+              <a href="">Quick view</a>
+              <a href="">Save</a>
+            </div>
           </div>
-          <img src="" alt="">
-          <h4>Pull&bear -- article name</h4>
-          <div>
-            <a href="">Quick view</a>
-            <a href="">Save</a>
+          <div class="product__info">
+            <h4 class="product__title">Pull&bear -- article name</h4>
+            <span class="product__price">$47.10</span>
+            <button class="product__button" type="button" name="button">add to bag</button>
           </div>
         </div>
-        <div>
+        <div class="product">
           <div class="">
-            sale
+            <div class="product__flag product__flag--sale">
+              <span>sale</span>
+            </div>
+            <img class="product__img" src="" alt="">
+            <div class="product__overlay">
+              <a href="">Quick view</a>
+              <a href="">Save</a>
+            </div>
           </div>
-          <img src="" alt="">
-          <h4>Pull&bear -- article name</h4>
-          <div>
-            <a href="">Quick view</a>
-            <a href="">Save</a>
+          <div class="product__info">
+            <h4 class="product__title">Pull&bear -- article name</h4>
+            <span class="product__price">$47.10</span>
+            <button class="product__button" type="button" name="button">add to bag</button>
           </div>
         </div>
-        <div>
+        <div class="product">
           <div class="">
-            sale
+            <div class="product__flag product__flag--sale">
+              <span>sale</span>
+            </div>
+            <img class="product__img" src="" alt="">
+            <div class="product__overlay">
+              <a href="">Quick view</a>
+              <a href="">Save</a>
+            </div>
           </div>
-          <img src="" alt="">
-          <h4>Pull&bear -- article name</h4>
-          <div>
-            <a href="">Quick view</a>
-            <a href="">Save</a>
+          <div class="product__info">
+            <h4 class="product__title">Pull&bear -- article name</h4>
+            <span class="product__price">$47.10</span>
+            <button class="product__button" type="button" name="button">add to bag</button>
           </div>
         </div>
       </div>
     </section>
-    <div class="offer-banner">
+    <div class="offer-banner container--fluid">
       <img src="" alt="">
     </div>
-    <section class="testimonial">
-      <div class="testimonial-content">
-        <div class="person">
-          <img src="" alt="">
-          <h4></h4>
+    <section class="testimonial container">
+      <div class="testimonial__content">
+        <div class="customer">
+          <img class="customer__img" src="" alt="">
+          <h4 class="customer__name"></h4>
+          <p class="customer__statement"></p>
         </div>
-        <div class="person">
-          <img src="" alt="">
-          <h4></h4>
+        <div class="customer">
+          <img class="customer__img" src="" alt="">
+          <h4 class="customer__name"></h4>
+          <p class="customer__statement"></p>
         </div>
-        <div class="person">
-          <img src="" alt="">
-          <h4></h4>
+        <div class="customer">
+          <img class="customer__img" src="" alt="">
+          <h4 class="customer__name"></h4>
+          <p class="customer__statement"></p>
         </div>
       </div>
-      <div class="dots">
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-      </div>
-    </section>
-    <section class="so-me">
-      <h3>get us on</h3>
-      <div class="">
-        <div><a href=""><img src="" alt="twitter"></a></div>
-        <div><a href=""><img src="" alt="pinterest"></a></div>
-        <div><a href=""><img src="" alt="facebook"></a></div>
-        <div><a href=""><img src="" alt="google plus"></a></div>
-        <div><a href=""><img src="" alt="youtube"></a></div>
-        <div><a href=""><img src="" alt="tumblr"></a></div>
+      <div class="testimonial__dots">
+        <div class="testimonial__dot"></div>
+        <div class="testimonial__dot"></div>
+        <div class="testimonial__dot"></div>
       </div>
     </section>
-    <footer>
-      <div>
+    <section class="so-me container">
+      <h3 class="so-me__title">get us on</h3>
+      <div class="so-me__selection">
+        <ul>
+          <li class="so-me__link"><a href=""><img src="" alt="twitter"></a></li>
+          <li class="so-me__link"><a href=""><img src="" alt="pinterest"></a></li>
+          <li class="so-me__link"><a href=""><img src="" alt="facebook"></a></li>
+          <li class="so-me__link"><a href=""><img src="" alt="google plus"></a></li>
+          <li class="so-me__link"><a href=""><img src="" alt="youtube"></a></li>
+          <li class="so-me__link"><a href=""><img src="" alt="tumblr"></a></li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer container">
+      <div class="footer__links">
         <h3>Questions?</h3>
         <ul>
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Track order</a></li>
-          <li><a href="#">Returns</a></li>
+          <li class="footer__link"><a href="#">Help</a></li>
+          <li class="footer__link"><a href="#">Track order</a></li>
+          <li class="footer__link"><a href="#">Returns</a></li>
         </ul>
       </div>
-      <div>
+      <div class="footer__links">
         <h3>Where to buy</h3>
         <ul>
-          <li><a href="#">Store Locator</a></li>
-          <li><a href="#">Wishlist</a></li>
-          <li><a href="#">Gift Cards</a></li>
+          <li class="footer__link"><a href="#">Store Locator</a></li>
+          <li class="footer__link"><a href="#">Wishlist</a></li>
+          <li class="footer__link"><a href="#">Gift Cards</a></li>
         </ul>
       </div>
-      <div>
+      <div class="footer__links">
         <h3>About us</h3>
         <ul>
-          <li><a href="#">Our Story</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Affiliates</a></li>
+          <li class="footer__link"><a href="#">Our Story</a></li>
+          <li class="footer__link"><a href="#">Careers</a></li>
+          <li class="footer__link"><a href="#">Affiliates</a></li>
         </ul>
       </div>
-      <div>
+      <div class="footer__payment">
         <img src="" alt="Payment methods">
       </div>
-      <div>
+      <div class="footer__logo">
         <img src="" alt="classy logo">
         <q cite="">
           Ecommerce PSD Theme
